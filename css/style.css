@@ -737,13 +737,13 @@ template {
 
 .section_3 .slider {
   height: 600px;
-  background-image: url(/img/slider_2_1.jpg);
+  background-image: url(../img/slider_2_1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .section_4 {
-  background: url(/img/bg_3.png);
+  background: url(../img/bg_3.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -810,7 +810,7 @@ template {
 }
 
 .section_4 .video .btn_video {
-  background: url(/img/play.png);
+  background: url(../img/play.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 100px;
@@ -835,7 +835,7 @@ template {
 }
 
 footer {
-  background: url(/img/bg_4.png);
+  background: url(../img/bg_4.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1097,7 +1097,7 @@ footer .container .conent_phone .zak_tell {
     padding-top: 0;
   }
   .section_3 .slider {
-    background-image: url(/img/slider_2_1_sm.jpg);
+    background-image: url(../img/slider_2_1_sm.jpg);
     height: 400px;
   }
   .section_4 {

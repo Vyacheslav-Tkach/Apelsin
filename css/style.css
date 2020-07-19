@@ -412,8 +412,34 @@ template {
   height: 100%;
 }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.slow_padding {
+  padding: 5px 0px 5px;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  background-color: white;
+}
+
+.slow_padding .header_marker a, .slow_padding .header_site a, .slow_padding .header_mail a, .slow_padding .header_phone a {
+  color: black;
+}
+
 .header_marker, .header_site {
   display: flex;
+}
+
+.header__content {
+  z-index: 20;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .icon_marker, .icon_site, .icon_mail, .icon_phone {
@@ -913,6 +939,13 @@ footer .container .conent_phone .zak_tell {
 }
 
 @media only screen and (max-width: 768px) {
+  .slow_padding .header_content_sm{
+    padding: 10px 0;
+    transition: 0.5s;
+  }
+  .slow_padding {
+    padding: 0;
+  }
   .wrap_header {
     background-image: url(../img/bg_1_sm.png);
   }
@@ -1146,7 +1179,7 @@ footer .container .conent_phone .zak_tell {
     align-items: flex-start;
   }
   .header_content_sm {
-    padding: 30px 0;
+    padding: 20px 0;
   }
 }
 
